@@ -1,0 +1,266 @@
+Testing directory with most recent Team file: "Team.java"
+
+Compiling javac *.java
+
+TeamDrafterCLI.java:16: error: Node has private access in TeamDrafter
+            TeamDrafter.Node previousSuggestions = teamDrafter.getPreviousSuggestions();
+                       ^
+1 error
+
+Compilation failed. Will try to compile remaining files, then try tester in case some classes compiled.
+
+File SuggestedTeam.java compiled by javac *.java
+
+File Team.java compiled by javac *.java
+
+File TeamDrafter.java compiled by javac *.java
+
+Compiling TeamDrafterCLI.java
+TeamDrafterCLI.java:16: error: Node has private access in TeamDrafter
+            TeamDrafter.Node previousSuggestions = teamDrafter.getPreviousSuggestions();
+                       ^
+1 error
+
+Tester output follows.
+
+Tests available to students
+
+Running testQ1_00ClassDefinition
+
+  Test passed
+
+Running testQ1_01ConstructAndGet
+
+  Test passed
+
+Running testQ1_02toStringOverride
+
+  Test passed
+
+Running testQ1_03toString
+
+  Test passed
+
+Running testQ2_00ClassDefinition
+
+  Test passed
+
+Running testQ2_01ConstructAndGet
+
+  Test passed
+
+Running testQ2_01MethodDefinitions
+
+  Test passed
+
+Running testQ2_02toString
+
+  Test passed
+
+Running testQ3_00ClassDefinition
+
+  Test passed
+
+Running testQ3_01GetSolution
+
+  Test passed
+
+Running testQ3_02GetInitialPrevAttempts
+
+  Test passed
+
+Running testQ3_03GameWithHistory
+
+  Test passed
+
+Running testQ4_01NumGood
+
+  Test passed
+
+Running testQ4_02WrongSpot
+
+  Test passed
+
+Running testQ4_03IsCorrect
+
+  Test passed
+
+Running testQ4_03WrongSpot
+
+  Test passed
+
+Running testQ4_04AttemptResult
+
+  Test passed
+
+Running testQ5_GenerateSolution
+
+  Test passed
+
+Running testQ6_01PlayGameInit
+
+  Test failed!
+
+  Running TeamDrafterCLI.playGame(new TeamDrafter(new Team(new int[] {1, 2, 3, 8, 5})));
+  Failing interaction:
+  > Could not initialise game using above call.
+
+  Expected the last line of output shown above to be 'Previous attempts:'.
+
+Running testQ6_02PlayGameInput
+
+  Test failed!
+
+  Running TeamDrafterCLI.playGame(new TeamDrafter(new Team(new int[] {1, 2, 3, 5, 8})));
+  Failing interaction:
+  > Could not initialise game using above call.
+
+  Expected the last line of output shown above to be 'Previous attempts:'.
+
+Running testQ6_03PlayGameFinish
+
+  Test failed!
+
+  Running TeamDrafterCLI.playGame(new TeamDrafter(new Team(new int[] {1, 2, 3, 5, 8})));
+  Failing interaction:
+  > Could not initialise game using above call.
+
+  Expected the last line of output shown above to be 'Previous attempts:'.
+
+Running testQ6_04PlayGameInvalid
+
+  Test failed!
+
+  Running TeamDrafterCLI.playGame(new TeamDrafter(new Team(new int[] {1, 2, 3, 5, 8})));
+  Failing interaction:
+  > Could not initialise game using above call.
+
+  Expected the last line of output shown above to be 'Previous attempts:'.
+
+Hidden tests
+
+Running testQ1_00ConstructAndGetExtra
+
+  Test passed
+
+Running testQ1_01toStringExtra
+
+  Test passed
+
+Running testQ1_02toStringExtra
+
+  Test passed
+
+Running testQ2_01ConstructAndGetExtra
+
+  Test passed
+
+Running testQ2_02toStringExtra
+
+  Test passed
+
+Running testQ2_03toStringExtra
+
+  Test passed
+
+Running testQ3_01GameWithHistoryExtra
+
+  Test passed
+
+Running testQ3_02GameWithHistoryExtra
+
+  Test passed
+
+Running testQ3_03GameWithHistoryExtra
+
+  Test passed
+
+Running testQ4_01NumGoodExtra
+
+  Test passed
+
+Running testQ4_02NumGoodExtra
+
+  Test passed
+
+Running testQ4_03NumGoodExtra
+
+  Test passed
+
+Running testQ4_04NumGoodExtra
+
+  Test passed
+
+Running testQ4_05NumWrongSpotExtra
+
+  Test passed
+
+Running testQ4_06NumWrongSpotExtra
+
+  Test passed
+
+Running testQ4_07NumWrongSpotExtra
+
+  Test passed
+
+Running testQ4_08NumWrongSpotExtra
+
+  Test passed
+
+Running testQ4_09IsCorrect
+
+  Test passed
+
+Running testQ4_10AttemptResult
+
+  Test passed
+
+Running testQ4_10IsCorrect
+
+  Test passed
+
+Running testQ5_GenerateSolutionExtra
+
+  Test passed
+
+Running testQ6_01PlayGameExtra
+
+  Test failed!
+
+  Running TeamDrafterCLI.playGame(new TeamDrafter(new Team(new int[] {5, 6, 1, 2, 9})));
+  Failing interaction:
+  > Could not initialise game using above call.
+
+  Expected the last line of output shown above to be 'Previous attempts:'.
+
+Running testQ6_02PlayGameExtra
+
+  Test failed!
+
+  Running TeamDrafterCLI.playGame(new TeamDrafter(new Team(new int[] {9, 6, 1, 2, 3})));
+  Failing interaction:
+  > Could not initialise game using above call.
+
+  Expected the last line of output shown above to be 'Previous attempts:'.
+
+Running testQ6_03PlayGameExtra
+
+  Test failed!
+
+  Running TeamDrafterCLI.playGame(new TeamDrafter(new Team(new int[] {3, 4, 7, 8, 1})));
+  Failing interaction:
+  > Could not initialise game using above call.
+
+  Expected the last line of output shown above to be 'Previous attempts:'.
+
+Running testQ6_04PlayGameExtra
+
+  Test failed!
+
+  Running TeamDrafterCLI.playGame(new TeamDrafter(new Team(new int[] {3, 4, 7, 8, 2})));
+  Failing interaction:
+  > Could not initialise game using above call.
+
+  Expected the last line of output shown above to be 'Previous attempts:'.
+
+Tests failed
